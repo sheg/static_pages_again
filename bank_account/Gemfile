@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'rspec'
+gem 'require_all'
+gem 'service_manager'
+gem 'sinatra'
+gem 'capybara'
+gem 'launchy'
+
