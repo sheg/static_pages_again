@@ -1,5 +1,5 @@
 def full_title(page_title)
-  base_title = "Ruby on Rails Tutorial Sample App"
+  base_title = "Sheg's App"
   unless page_title.empty?
     "#{base_title} | #{page_title}"
   else
