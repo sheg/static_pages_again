@@ -43,7 +43,7 @@ class UsersController < ApplicationController
   def destroy
     user = User.find(params[:id])
     User.find(params[:id]).destroy
-    flash[:success] = "#{user} has successfully been deleted"
+    flash[:success] = "#{user.name} has successfully been deleted"
     redirect_to users_url
   end
 
