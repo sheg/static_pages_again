@@ -1,0 +1,15 @@
+<% provide(:title, "Search Results") %>
+
+<% if @user %>
+<table>
+  <th>Name</th>
+  <th>Email</th>
+  <th>User</th>
+  <tr>
+    <td><%= @user.name %></td>
+    <td><%=@user.email %></td>
+    <td><%= link_to @user.name, @user %></td>
+  </tr>
+</table>
+
+<% end %>

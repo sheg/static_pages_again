@@ -1,0 +1,10 @@
+<% provide(:title, "Search") %>
+<h1>USER SEARCH</h1>
+
+<div class="row">
+  <%= form_tag("/search", method: 'get') do  %>
+    <%= label_tag ("Search by email:") %>
+    <%= text_field_tag :email %>
+    <%= submit_tag "search", class: "btn btn-large btn-primary" %>
+<% end %>
+</div>
